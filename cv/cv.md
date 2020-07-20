@@ -5,5 +5,9 @@ permalink: /cv/
 author_profile: true
 ---
 
-<a href="test_file.zip" download>Download CV</a>
+<img src="../assets/images/resume.png" />
+<br> 
+<a href="../assets/resume_soham.pdf" download>Download CV</a>
+
+
 
