@@ -8,7 +8,7 @@ title: "Homepage"
 
 **Soham Chakraborti** <br>
 Carnegie Mellon University <br>
-[Master of Information Systems Management (MISM)](https://www.heinz.cmu.edu/programs/information-systems-management-master/16-month) <br>
+[Master of Information Systems Management (MISM)](https://www.heinz.cmu.edu/programs/information-systems-management-master/bida) <br>
 Grad Dec 2020 <br>
 
 -----

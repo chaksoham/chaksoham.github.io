@@ -90,7 +90,7 @@ analytics:
 # Site Author
 author:
   name             : "Soham Chakraborti"
-  avatar           : "/assets/images/headshot.JPG"
+  avatar           : "/assets/images/headshot.jpeg"
   bio              : "Grad Student @ CMU"
   location         : "Pittsburgh, PA"
   email            : "sohamc@andrew.cmu.edu"
