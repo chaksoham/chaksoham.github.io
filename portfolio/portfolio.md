@@ -6,22 +6,27 @@ permalink: /portfolio/
 # entries_layout: grid
 author_profile: true
 ---
-# Portfolio
-## Practical Data Science
-<img src="/assets/images/asr.png" title="img source:https://http://www.datasciencecourse.org/" alt="Practical Data Science" width="400">
+# Cellorganizer
+http://www.cellorganizer.org/
 
-What am i doing?
+# VR APP
+HyattVR allows you to practice your public speaking skills in a VR environment. After delivering your presentation, review it from the audience’s perspective in a virtual playback setting and get feedback on your performance.
 
------
-## Cloud Computing
-<img src="/assets/images/asr.png" title="img source:https://http://www.datasciencecourse.org/" alt="Practical Data Science" width="400">
-
-What am i doing?
-
------
-## HyattVRAPP
+# Cloud Computing
 
 
+# Practical Data Science
 
-------
-## Cellorganizer
+
+# Data structures for Application Developers
+
+
+# NoSql Databases
+
+
+# Database Management
+Implemented with Numpy and Python:
+
+
+# Professional Scrum Master 1
+- Credential Id: 483462
