@@ -38,7 +38,7 @@ It covers the conceptual and implementation views of some common data structures
 <a href="https://www.coursicle.com/cmu/courses/ISR/17683/">Course Website</a>
 
 ## Databses and management
- Databases systems are central to most organizations’ information systems strategies. At any organizational level, users can expect to have frequent contact with database systems. Therefore, skill in using such systems – understanding their capabilities and limitations, knowing how to access data directly or through technical specialists, knowing how to
+Databases systems are central to most organizations’ information systems strategies. At any organizational level, users can expect to have frequent contact with database systems. Therefore, skill in using such systems – understanding their capabilities and limitations, knowing how to access data directly or through technical specialists, knowing how to
 effectively use the information such systems can provide, and skills in designing new systems and related applications – is a distinct advantage and necessity today. 
  - Gain good understanding of relational data model in terms of data structure, data integrity, and data manipulation.  
  - Understand and create conceptual database models utilizing entity-relationship modeling.  
