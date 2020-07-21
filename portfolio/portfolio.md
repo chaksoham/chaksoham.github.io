@@ -6,7 +6,7 @@ permalink: /portfolio/
 # entries_layout: grid
 author_profile: true
 ---
-# Academic works
+# Academic work
 
 ## Cellorganizer
 The CellOrganizer project provides tools for
