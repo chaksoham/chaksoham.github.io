@@ -4,7 +4,7 @@ author_profile: true
 title: "Homepage"
 ---
 # About Me
-<img src="assets/images/aboutme.jpg" width="300"/> 
+<img src="assets/images/aboutme.jpg" width="500" height="500"/> 
 
 **Soham Chakraborti** <br>
 Carnegie Mellon University <br>
