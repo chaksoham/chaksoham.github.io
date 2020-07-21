@@ -3,7 +3,9 @@ main:
     url: /
   - title: "CV"
     url: /cv/
-  - title: "Portfolio"
+  - title: "Academic Work"
     url: /portfolio/
+  - title: "Professional Work"
+    url: /professional/
   - title: "Laugh and Sarcasm"
     url: /laughandsarcasm/
