@@ -7,8 +7,6 @@ author_profile: true
 
 <img src="../assets/images/resume.png" />
 <br>
-<br> 
-<a href="../assets/resume_soham.pdf" download>Download CV</a>
+<br>
 
-
-
+<p>For the latest version of my resume, please feel free to <a href="mailto:chakraborti.soham@gmail.com">reach out to me</a>.</p>
