@@ -78,10 +78,10 @@ title: "Homepage"
   
   <div class="section-title">💡 Key Strengths:</div>
   <ul class="bullet-points">
-    <li>✔️ AI & Big Data: Designing machine learning models, ETL pipelines & data visualization solutions.</li>
     <li>✔️ Cloud & Microservices: Building scalable, cloud-ready architectures for high-performance applications.</li>
     <li>✔️ Health Tech Impact: Engineering solutions that enhance patient care and operational efficiency.</li>
     <li>✔️ Customer Adoption: Developed AI-driven products deployed globally by 20+ clients, generating $1M+ in revenue.</li>
+    <li>✔️ AI & Big Data: ETL pipelines & data solutions.</li>
     <li>✔️ Advocate for UX, innovation, agile methodologies, and CI/CD best practices.</li>
   </ul>
 
