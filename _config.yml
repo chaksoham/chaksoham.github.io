@@ -5,95 +5,27 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
+# Theme Settings make the text on the page more beautiful, headers more elegant and overall theme better
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "neon"  # Change to "neon" for your selected theme skin
 
-# Site Settings
-locale                   : "en-US"
-title                    : "Soham Chakraborti"
-title_separator          : 
-subtitle                 : 
-name                     : "Soham Chakraborti"
-description              : 
-url                      : "https://chaksoham.github.io"
-baseurl                  : "/" 
-repository               : "chaksoham/chaksoham.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
+title: "Soham Chakraborti"
+title_separator: " | "
+font_family: "Roboto, sans-serif"
+base_font_size: "16px"
+line_height: "1.6"
+masthead_title: "Welcome to My Personal Portfolio"
+masthead_background: "/assets/images/hero-bg.jpg"
+logo: "/assets/images/logo.png"
+description: "Personal website showcasing my portfolio and blog."
+url: "https://chaksoham.github.io"
+google_site_verification: "your-google-verification-code"  # Replace with your actual Google verification code
 
-# Social Sharing
-twitter: 
-  username               : ""
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : "Person" # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
-
-# Site Author
-author:
-  name             : "Soham Chakraborti"
-  avatar           : "/assets/images/headshot.png"
-  bio              : "Grad Student @ CMU"
-  location         : "Pittsburgh, PA"
-  email            : "sohamc@andrew.cmu.edu"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -105,6 +37,23 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: ""
 
+# Site Author Information
+author:
+  name: "Soham Chakraborti"
+  avatar: "/assets/images/headshot.jpeg"
+  bio: "SDE II @ AMAZON"
+  location: "Seattle, WA"
+  email: "chakraborti.soham@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/chaksoham"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sohamcmu/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: ""
 
 # Reading Files
 include:
@@ -135,14 +84,13 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - /docs  # ignore Minimal Mistakes /docs
+  - /test  # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -150,7 +98,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -163,12 +110,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# Sass/SCSS
+# Sass/SCSS Configuration
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed  # Use compressed output style for production
 
 # Outputting (Pagination)
 # permalink: /:categories/:title/
@@ -176,10 +121,8 @@ sass:
 # paginate_path: /page:num/
 # timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
 # Plugins (previously gems:)
 plugins:
-  # - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -187,44 +130,20 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  # - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
 
-
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
@@ -234,7 +153,6 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/projects/
-
 
 # Defaults
 defaults:
@@ -246,7 +164,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: false
   # _portfolio
   - scope:
@@ -255,7 +173,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
 
 # Add Github authentication to stop annoying message from happening
 github: [metadata]

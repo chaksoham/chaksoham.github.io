@@ -8,8 +8,8 @@
 <html lang="en" class="no-js">
   <head><meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Portfolio - Soham Chakraborti</title>
-<meta name="description" content="">
+<!-- begin _includes/seo.html --><title>Portfolio  |  Soham Chakraborti</title>
+<meta name="description" content="Personal website showcasing my portfolio and blog. ">
 
 
   <meta name="author" content="Soham Chakraborti">
@@ -22,21 +22,7 @@
 <meta property="og:url" content="http://localhost:4000/portfolio/">
 
 
-
-
-
-
-  <meta name="twitter:site" content="@">
-  <meta name="twitter:title" content="Portfolio">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:url" content="http://localhost:4000/portfolio/">
-
-  
-    <meta name="twitter:card" content="summary">
-    
-  
-
-  
+  <meta property="og:description" content="Personal website showcasing my portfolio and blog. ">
 
 
 
@@ -44,9 +30,9 @@
 
 
 
-  
 
-  
+
+
 
 
 <link rel="canonical" href="http://localhost:4000/portfolio/">
@@ -59,12 +45,15 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": "Soham Chakraborti",
-      "url": "http://localhost:4000/"
+      "name": null,
+      "url": "http://localhost:4000/",
+      "sameAs": [{"label":"GitHub","icon":"fab fa-fw fa-github","url":"https://github.com/chaksoham"},{"label":"LinkedIn","icon":"fab fa-fw fa-linkedin","url":"https://www.linkedin.com/in/sohamcmu/"},{"label":"Twitter","icon":"fab fa-fw fa-twitter-square","url":""}]
     
   }
 </script>
 
+
+  <meta name="google-site-verification" content="your-google-verification-code" />
 
 
 
@@ -126,8 +115,10 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=""></a>
+        
         <!-- <a class="site-title" href="/">
-          Soham Chakraborti
+          Welcome to My Personal Portfolio
           
         </a> -->
         <ul class="visible-links"><li class="masthead__menu-item">
@@ -167,7 +158,7 @@
   
     <div class="author__avatar">
       
-        <img src="/assets/images/headshot.png" alt="Soham Chakraborti" itemprop="image">
+        <img src="/assets/images/headshot.jpeg" alt="Soham Chakraborti" itemprop="image">
       
     </div>
   
@@ -178,7 +169,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>Grad Student @ CMU</p>
+        <p>SDE II @ AMAZON</p>
 
       </div>
     
@@ -191,16 +182,16 @@
 
       
       <li>
-        <a href="mailto:sohamc@andrew.cmu.edu">
-          <meta itemprop="email" content="sohamc@andrew.cmu.edu" />
-          <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">sohamc@andrew.cmu.edu</span>
+        <a href="mailto:chakraborti.soham@gmail.com">
+          <meta itemprop="email" content="chakraborti.soham@gmail.com" />
+          <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
         </a>
       </li>
       
       
     
       <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Pittsburgh, PA</span>
+        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Seattle, WA</span>
       </li>
     
 
@@ -282,73 +273,248 @@
 
 
   <div class="archive">
-    <h1 id="academic-work">Academic work</h1>
+    <h1 id="key-projects">Key Projects</h1>
 
-<h2 id="cellorganizer">Cellorganizer</h2>
-<p>The CellOrganizer project provides tools for</p>
-<ul>
-  <li>learning generative models of cell organization directly from images</li>
-  <li>storing and retrieving those models</li>
-  <li>synthesizing cell images (or other representations) from one or more models
-<br />
-<a href="http://www.cellorganizer.org/">Lab Website</a></li>
+<h3 id="healthcare-enrollment-platform-integration">Healthcare Enrollment Platform Integration</h3>
+<p style="color: #f0f0f0;"><strong>Role:</strong> Software Developer II | <strong>Company:</strong> Amazon.com | <strong>Project Type:</strong> Healthcare Technology</p>
+
+<p style="color: #dcdcdc;"><strong>Overview:</strong><br />
+Architected a scalable healthcare enrollment platform that connects major healthcare providers and insurance companies. The system ensures HIPAA-compliant data integration, reducing customer onboarding time by 60% and operational costs by 40%.</p>
+
+<p><strong>Responsibilities:</strong></p>
+<ul style="color: #b0b0b0;">
+  <li>Designed and implemented secure data integration systems for healthcare platforms.</li>
+  <li>Led the migration and consolidation of healthcare systems, improving efficiency with 100% data integrity.</li>
+  <li>Automated processes, reducing customer onboarding time by 60%.</li>
 </ul>
 
-<h2 id="vr-app">VR APP</h2>
-<p>HyattVR allows you to practice your public speaking skills in a VR environment. After delivering your presentation, review it from the audience’s perspective in a virtual playback setting and get feedback on your performance.
-<br />
-<a href="http://olicdn.andrew.cmu.edu/vrapp.html">Lab Website</a></p>
+<hr />
 
-<h2 id="cloud-computing">Cloud Computing</h2>
-<p>This project-based on-line course focuses on skill building across various aspects of cloud computing. We cover conceptual topics and provide hands-on experience through projects utilizing public cloud infrastructures Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform (GCP).</p>
+<h3 id="healthcare-payments-system-integration">Healthcare Payments System Integration</h3>
+<p style="color: #f0f0f0;"><strong>Role:</strong> Software Developer II | <strong>Company:</strong> Amazon.com | <strong>Project Type:</strong> Payment Systems &amp; Customer Data Management</p>
 
-<p>Students will utilize MapReduce, interactive programming using Jupyter Notebooks, and data science libraries to clean, prepare and analyze a large data set. Students will orchestrate the deployment of auto-scaled, load-balanced and fault-tolerant applications using virtual machines (VMs), Docker containers and Kubernetes, as well as serverless computing through Functions as a Service. Students will explore and experiment with different distributed cloud-storage abstractions (distributed file systems and databases) and compare their features, capabilities, applicability and consistency models. In addition, students will develop different analytics applications using batch, iterative and stream processing frameworks. The 15-619 [graduate] students will participate in a team project, which entails designing and implementing a complete web-service solution for querying big data. For the team project, the student teams are evaluated based on the cost and performance of their web service.<br />
-<a href="https://www.cs.cmu.edu/~msakr/15619-s20/">Course Website</a></p>
+<p style="color: #dcdcdc;"><strong>Overview:</strong><br />
+Led the integration of mission-critical payment systems following a healthcare acquisition. Built systems for end-to-end payment processing, managing millions in transaction volume.</p>
 
-<h2 id="practical-data-science">Practical Data Science</h2>
-<p>This course provides a practical introduction to the “full stack” of data science analysis, including data collection and processing, data visualization and presentation, statistical model building using machine learning, and big data techniques for scaling these methods. Topics covered include: collecting and processing data using relational methods, time series approaches, graph and network models, free text analysis, and spatial geographic methods; analyzing the data using a variety of statistical and machine learning methods include linear and non-linear regression and classification, unsupervised learning and anomaly detection, plus advanced machine learning methods like kernel approaches, boosting, or deep learning; visualizing and presenting data, particularly focusing the case of high-dimensional data; and applying these methods to big data settings, where multiple machines and distributed computation are needed to fully leverage the data.
-<br />
-<a href="http://www.datasciencecourse.org/">Course Website</a></p>
-
-<h2 id="data-structures-for-application-developers">Data structures for Application Developers</h2>
-<p>It covers the conceptual and implementation views of some common data structures and algorithms. It also goes over the Java Collections (such as List, ArrayList, LinkedList, Set, HashSet, TreeSet, Map, HashMap, TreeMap, PriorityQueue) to solidify the understanding of the data structures. There is an introduction to the analysis of algorithms that operate on them.
-<br />
-<a href="https://www.coursicle.com/cmu/courses/ISR/17683/">Course Website</a></p>
-
-<h2 id="databses-and-management">Databses and management</h2>
-<p>Databases systems are central to most organizations’ information systems strategies. At any organizational level, users can expect to have frequent contact with database systems. Therefore, skill in using such systems – understanding their capabilities and limitations, knowing how to access data directly or through technical specialists, knowing how to
-effectively use the information such systems can provide, and skills in designing new systems and related applications – is a distinct advantage and necessity today.</p>
-<ul>
-  <li>Gain good understanding of relational data model in terms of data structure, data integrity, and data manipulation.</li>
-  <li>Understand and create conceptual database models utilizing entity-relationship modeling.</li>
-  <li>Design data structures that will limit redundancy and enforce data integrity while conforming to organizational requirements utilizing normalization methodology.</li>
-  <li>Understand the theory behind the relational data model as it applies to interactions with current database management systems.</li>
-  <li>Read and interpret a given data model to query the database and transform the data into information using Structured Query Language (SQL).</li>
-  <li>Implement a data model in a current relational database management system.</li>
-  <li>Create reports, based on transactional data, including elements such as data groupings and summary values. 
-<br />
-<a href="http://www.datasciencecourse.org/">Course Website</a></li>
+<p><strong>Responsibilities:</strong></p>
+<ul style="color: #b0b0b0;">
+  <li>Designed scalable architectures for payment processing systems.</li>
+  <li>Managed the integration of customer data management for payment workflows.</li>
 </ul>
 
-<h1 id="nosql-database-management">NoSQL Database Management</h1>
-<p>The widespread emergence of big data storage needs has driven the development and adoption of a new class of non-relational databases commonly referred to as NoSQL databases. This course will explore the origins of NoSQL databases and the characteristics that distinguish them from traditional relational database management systems. Core concepts of NoSQL databases will be presented, followed by an exploration of how different database technologies implement these core concepts. We will take a closer look at 1-2 databases from each of the four main NoSQL data models (key-value, column family, document, and graph), highlighting the business needs that drive the development and use of each database. Finally, we will present criteria that decision makers should consider when choosing between relational and non-relational databases and techniques for selecting the NoSQL database that best addresses specific use cases.</p>
-<ul>
-  <li>Used redis</li>
-  <li>Used Neo4j</li>
-  <li>Used Mongodb</li>
-  <li>Used Cassandra
- Worked on various use cases for heterogenous database modeling and effectiveness of various Relational, NoSQL and NewSQL based databases.
-<br />
-<a href="https://api.heinz.cmu.edu/courses_api/course_detail/95-737">Course Website</a></li>
+<hr />
+
+<h3 id="order-management-system">Order Management System</h3>
+<p style="color: #f0f0f0;"><strong>Role:</strong> Software Developer II | <strong>Company:</strong> Amazon.com | <strong>Project Type:</strong> E-commerce &amp; Healthcare Operations</p>
+
+<p style="color: #dcdcdc;"><strong>Overview:</strong><br />
+Developed an automated order management system for healthcare services, cutting refund processing time from weeks to minutes.</p>
+
+<p><strong>Responsibilities:</strong></p>
+<ul style="color: #b0b0b0;">
+  <li>Built an automated order management system for seamless healthcare service orders.</li>
+  <li>Enhanced customer experience through real-time tracking and automated notifications.</li>
 </ul>
 
-<h2 id="professional-scrum-master-1">Professional Scrum Master 1</h2>
-<ul>
-  <li>Credential Id: 483462
-<br />
-<a href="https://www.scrum.org/certification-list">Scrum Website</a></li>
+<hr />
+
+<h3 id="automated-billing-adjustment-system">Automated Billing Adjustment System</h3>
+<p style="color: #f0f0f0;"><strong>Role:</strong> Software Developer II | <strong>Company:</strong> Amazon.com | <strong>Project Type:</strong> Financial Operations &amp; Automation</p>
+
+<p style="color: #dcdcdc;"><strong>Overview:</strong><br />
+Led a team to create an automated billing adjustment system that processed thousands of transactions in its first week.</p>
+
+<p><strong>Responsibilities:</strong></p>
+<ul style="color: #b0b0b0;">
+  <li>Spearheaded the development of an automated platform to handle billing adjustments.</li>
+  <li>Managed real-time transaction processing and tracking.</li>
 </ul>
 
+<hr />
+
+<h3 id="healthcare-tax-calculation-service">Healthcare Tax Calculation Service</h3>
+<p style="color: #f0f0f0;"><strong>Role:</strong> Software Developer II | <strong>Company:</strong> Amazon.com | <strong>Project Type:</strong> Regulatory Compliance &amp; Taxation</p>
+
+<p style="color: #dcdcdc;"><strong>Overview:</strong><br />
+Developed a nationwide healthcare tax calculation service, ensuring HIPAA compliance and multi-state tax regulation handling.</p>
+
+<p><strong>Responsibilities:</strong></p>
+<ul style="color: #b0b0b0;">
+  <li>Built a scalable tax calculation system to support healthcare service expansion.</li>
+  <li>Implemented protection mechanisms for PHI data.</li>
+</ul>
+
+<hr />
+
+<h3 id="robotic-process-automation-rpa">Robotic Process Automation (RPA)</h3>
+<p style="color: #f0f0f0;"><strong>Role:</strong> Software Developer | <strong>Company:</strong> Amelia.ai | <strong>Project Type:</strong> Automation &amp; AI</p>
+
+<p style="color: #dcdcdc;"><strong>Overview:</strong><br />
+Developed a scalable RPA tool to automate web and Windows desktop workflows, utilizing OCR and UI automation to improve efficiency.</p>
+
+<p><strong>Responsibilities:</strong></p>
+<ul style="color: #b0b0b0;">
+  <li>Designed intelligent automation engines with OCR and UI automation for seamless interaction with applications.</li>
+  <li>Created a no-code drag-and-drop workflow builder using React and Node.js.</li>
+</ul>
+
+<hr />
+
+<h3 id="business-process-networks-bpn">Business Process Networks (BPN)</h3>
+<p style="color: #f0f0f0;"><strong>Role:</strong> Software Developer | <strong>Company:</strong> Amelia.ai | <strong>Project Type:</strong> Workflow Automation &amp; AI-driven Processes</p>
+
+<p style="color: #dcdcdc;"><strong>Overview:</strong><br />
+Developed a BPMN-based tool to automate business workflows, integrating semantic AI for real-time process adjustments.</p>
+
+<p><strong>Responsibilities:</strong></p>
+<ul style="color: #b0b0b0;">
+  <li>Created a custom BPMN engine for dynamic process automation.</li>
+  <li>Integrated AI to trigger workflows based on user input, enhancing process accuracy.</li>
+</ul>
+
+<hr />
+
+<h1 id="academic-work">Academic Work</h1>
+
+<h3 id="cellorganizer">Cellorganizer</h3>
+<p style="color: #f0f0f0;"><strong>Overview:</strong><br />
+Provides tools for generative models of cell organization from images.</p>
+
+<ul style="color: #dcdcdc;">
+  <li><strong>Key Features:</strong>
+    <ul>
+      <li>Storing and retrieving cell models</li>
+      <li>Synthesizing images from models</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong><a href="http://www.cellorganizer.org/">Visit the Lab Website</a></strong></li>
+</ul>
+
+<hr />
+
+<h3 id="hyattvr">HyattVR</h3>
+<p style="color: #f0f0f0;"><strong>Overview:</strong><br />
+A VR platform for practicing public speaking and receiving feedback on performance.</p>
+
+<ul style="color: #dcdcdc;">
+  <li><strong>Key Features:</strong>
+    <ul>
+      <li>Virtual playback of presentations</li>
+      <li>Audience perspective review</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong><a href="http://olicdn.andrew.cmu.edu/vrapp.html">Visit the Lab Website</a></strong></li>
+</ul>
+
+<hr />
+
+<h3 id="cloud-computing">Cloud Computing</h3>
+<p style="color: #f0f0f0;"><strong>Overview:</strong><br />
+A project-based course on cloud computing, focused on hands-on experience with AWS, Azure, and GCP.</p>
+
+<ul style="color: #dcdcdc;">
+  <li><strong>Key Features:</strong>
+    <ul>
+      <li>MapReduce, Jupyter Notebooks, and data science libraries</li>
+      <li>Deployed fault-tolerant applications</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong><a href="https://www.cs.cmu.edu/~msakr/15619-s20/">Course Website</a></strong></li>
+</ul>
+
+<hr />
+
+<h3 id="practical-data-science">Practical Data Science</h3>
+<p style="color: #f0f0f0;"><strong>Overview:</strong><br />
+A hands-on introduction to the full stack of data science.</p>
+
+<ul style="color: #dcdcdc;">
+  <li><strong>Key Features:</strong>
+    <ul>
+      <li>Data collection, processing, and visualization</li>
+      <li>Applied machine learning techniques</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong><a href="http://www.datasciencecourse.org/">Course Website</a></strong></li>
+</ul>
+
+<hr />
+
+<h3 id="data-structures-for-application-developers">Data Structures for Application Developers</h3>
+<p style="color: #f0f0f0;"><strong>Overview:</strong><br />
+Covered data structures and algorithms with practical implementation.</p>
+
+<ul style="color: #dcdcdc;">
+  <li><strong>Key Features:</strong>
+    <ul>
+      <li>Hands-on with Java Collections (List, Map, Set)</li>
+      <li>Introduction to algorithm analysis</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong><a href="https://www.coursicle.com/cmu/courses/ISR/17683/">Course Website</a></strong></li>
+</ul>
+
+<hr />
+
+<h3 id="databases-and-management">Databases and Management</h3>
+<p style="color: #f0f0f0;"><strong>Overview:</strong><br />
+Focused on relational database models and SQL querying.</p>
+
+<ul style="color: #dcdcdc;">
+  <li><strong>Key Features:</strong>
+    <ul>
+      <li>Database design and implementation</li>
+      <li>SQL querying and data transformation</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong><a href="http://www.datasciencecourse.org/">Course Website</a></strong></li>
+</ul>
+
+<hr />
+
+<h3 id="nosql-database-management">NoSQL Database Management</h3>
+<p style="color: #f0f0f0;"><strong>Overview:</strong><br />
+Explored NoSQL databases, comparing them with traditional systems.</p>
+
+<ul style="color: #dcdcdc;">
+  <li><strong>Key Features:</strong>
+    <ul>
+      <li>Hands-on with NoSQL databases like MongoDB and Cassandra</li>
+      <li>Modeling for heterogeneous data</li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><strong><a href="https://api.heinz.cmu.edu/courses_api/course_detail/95-737">Course Website</a></strong></li>
+</ul>
+
+<hr />
+
+<h3 id="professional-scrum-master-1">Professional Scrum Master 1</h3>
+<p style="color: #f0f0f0;"><strong>Credential ID:</strong> 483462</p>
+
+<ul>
+  <li><strong><a href="https://www.scrum.org/certification-list">Scrum Website</a></strong></li>
+</ul>
 
   </div>
 </div>
@@ -364,8 +530,6 @@ effectively use the information such systems can provide, and skills in designin
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-      <li><strong>Follow:</strong></li>
-    
 
     
 
@@ -373,7 +537,7 @@ effectively use the information such systems can provide, and skills in designin
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Soham Chakraborti. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 Soham Chakraborti. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

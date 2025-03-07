@@ -2,67 +2,219 @@
 title: Portfolio
 layout: archive
 permalink: /portfolio/
-# collection: portfolio
-# entries_layout: grid
 author_profile: true
 ---
-# Academic work
 
-## Cellorganizer
-The CellOrganizer project provides tools for
-- learning generative models of cell organization directly from images
-- storing and retrieving those models
-- synthesizing cell images (or other representations) from one or more models
-<br>
-<a href="http://www.cellorganizer.org/">Lab Website</a>
+# Key Projects
 
-## VR APP
-HyattVR allows you to practice your public speaking skills in a VR environment. After delivering your presentation, review it from the audience’s perspective in a virtual playback setting and get feedback on your performance.
-<br>
-<a href="http://olicdn.andrew.cmu.edu/vrapp.html">Lab Website</a>
+### Healthcare Enrollment Platform Integration  
+**Role:** Software Developer II | **Company:** Amazon.com | **Project Type:** Healthcare Technology  
+{: style="color: #f0f0f0;"}
 
-## Cloud Computing
-This project-based on-line course focuses on skill building across various aspects of cloud computing. We cover conceptual topics and provide hands-on experience through projects utilizing public cloud infrastructures Amazon Web Services (AWS), Microsoft Azure and Google Cloud Platform (GCP).
+**Overview:**  
+Architected a scalable healthcare enrollment platform that connects major healthcare providers and insurance companies. The system ensures HIPAA-compliant data integration, reducing customer onboarding time by 60% and operational costs by 40%.
+{: style="color: #dcdcdc;"}
 
-Students will utilize MapReduce, interactive programming using Jupyter Notebooks, and data science libraries to clean, prepare and analyze a large data set. Students will orchestrate the deployment of auto-scaled, load-balanced and fault-tolerant applications using virtual machines (VMs), Docker containers and Kubernetes, as well as serverless computing through Functions as a Service. Students will explore and experiment with different distributed cloud-storage abstractions (distributed file systems and databases) and compare their features, capabilities, applicability and consistency models. In addition, students will develop different analytics applications using batch, iterative and stream processing frameworks. The 15-619 [graduate] students will participate in a team project, which entails designing and implementing a complete web-service solution for querying big data. For the team project, the student teams are evaluated based on the cost and performance of their web service.<br>
-<a href="https://www.cs.cmu.edu/~msakr/15619-s20/">Course Website</a>
+**Responsibilities:**  
+- Designed and implemented secure data integration systems for healthcare platforms.  
+- Led the migration and consolidation of healthcare systems, improving efficiency with 100% data integrity.  
+- Automated processes, reducing customer onboarding time by 60%.  
+{: style="color: #b0b0b0;"}
 
-## Practical Data Science
-This course provides a practical introduction to the “full stack” of data science analysis, including data collection and processing, data visualization and presentation, statistical model building using machine learning, and big data techniques for scaling these methods. Topics covered include: collecting and processing data using relational methods, time series approaches, graph and network models, free text analysis, and spatial geographic methods; analyzing the data using a variety of statistical and machine learning methods include linear and non-linear regression and classification, unsupervised learning and anomaly detection, plus advanced machine learning methods like kernel approaches, boosting, or deep learning; visualizing and presenting data, particularly focusing the case of high-dimensional data; and applying these methods to big data settings, where multiple machines and distributed computation are needed to fully leverage the data.
-<br>
-<a href="http://www.datasciencecourse.org/">Course Website</a>
+---
 
-## Data structures for Application Developers
-It covers the conceptual and implementation views of some common data structures and algorithms. It also goes over the Java Collections (such as List, ArrayList, LinkedList, Set, HashSet, TreeSet, Map, HashMap, TreeMap, PriorityQueue) to solidify the understanding of the data structures. There is an introduction to the analysis of algorithms that operate on them.
-<br>
-<a href="https://www.coursicle.com/cmu/courses/ISR/17683/">Course Website</a>
+### Healthcare Payments System Integration  
+**Role:** Software Developer II | **Company:** Amazon.com | **Project Type:** Payment Systems & Customer Data Management  
+{: style="color: #f0f0f0;"}
 
-## Databses and management
-Databases systems are central to most organizations’ information systems strategies. At any organizational level, users can expect to have frequent contact with database systems. Therefore, skill in using such systems – understanding their capabilities and limitations, knowing how to access data directly or through technical specialists, knowing how to
-effectively use the information such systems can provide, and skills in designing new systems and related applications – is a distinct advantage and necessity today. 
- - Gain good understanding of relational data model in terms of data structure, data integrity, and data manipulation.  
- - Understand and create conceptual database models utilizing entity-relationship modeling.  
- - Design data structures that will limit redundancy and enforce data integrity while conforming to organizational requirements utilizing normalization methodology. 
- - Understand the theory behind the relational data model as it applies to interactions with current database management systems.  
- - Read and interpret a given data model to query the database and transform the data into information using Structured Query Language (SQL).  
- - Implement a data model in a current relational database management system.  
- - Create reports, based on transactional data, including elements such as data groupings and summary values. 
-<br>
-<a href="http://www.datasciencecourse.org/">Course Website</a> 
+**Overview:**  
+Led the integration of mission-critical payment systems following a healthcare acquisition. Built systems for end-to-end payment processing, managing millions in transaction volume.
+{: style="color: #dcdcdc;"}
 
-# NoSQL Database Management
- The widespread emergence of big data storage needs has driven the development and adoption of a new class of non-relational databases commonly referred to as NoSQL databases. This course will explore the origins of NoSQL databases and the characteristics that distinguish them from traditional relational database management systems. Core concepts of NoSQL databases will be presented, followed by an exploration of how different database technologies implement these core concepts. We will take a closer look at 1-2 databases from each of the four main NoSQL data models (key-value, column family, document, and graph), highlighting the business needs that drive the development and use of each database. Finally, we will present criteria that decision makers should consider when choosing between relational and non-relational databases and techniques for selecting the NoSQL database that best addresses specific use cases.
- - Used redis
- - Used Neo4j
- - Used Mongodb
- - Used Cassandra
- Worked on various use cases for heterogenous database modeling and effectiveness of various Relational, NoSQL and NewSQL based databases.
-<br>
-<a href="https://api.heinz.cmu.edu/courses_api/course_detail/95-737">Course Website</a>
+**Responsibilities:**  
+- Designed scalable architectures for payment processing systems.  
+- Managed the integration of customer data management for payment workflows.  
+{: style="color: #b0b0b0;"}
 
-## Professional Scrum Master 1
-- Credential Id: 483462
-<br>
-<a href="https://www.scrum.org/certification-list">Scrum Website</a>
+---
 
+### Order Management System  
+**Role:** Software Developer II | **Company:** Amazon.com | **Project Type:** E-commerce & Healthcare Operations  
+{: style="color: #f0f0f0;"}
 
+**Overview:**  
+Developed an automated order management system for healthcare services, cutting refund processing time from weeks to minutes.  
+{: style="color: #dcdcdc;"}
+
+**Responsibilities:**  
+- Built an automated order management system for seamless healthcare service orders.  
+- Enhanced customer experience through real-time tracking and automated notifications.  
+{: style="color: #b0b0b0;"}
+
+---
+
+### Automated Billing Adjustment System  
+**Role:** Software Developer II | **Company:** Amazon.com | **Project Type:** Financial Operations & Automation  
+{: style="color: #f0f0f0;"}
+
+**Overview:**  
+Led a team to create an automated billing adjustment system that processed thousands of transactions in its first week.  
+{: style="color: #dcdcdc;"}
+
+**Responsibilities:**  
+- Spearheaded the development of an automated platform to handle billing adjustments.  
+- Managed real-time transaction processing and tracking.  
+{: style="color: #b0b0b0;"}
+
+---
+
+### Healthcare Tax Calculation Service  
+**Role:** Software Developer II | **Company:** Amazon.com | **Project Type:** Regulatory Compliance & Taxation  
+{: style="color: #f0f0f0;"}
+
+**Overview:**  
+Developed a nationwide healthcare tax calculation service, ensuring HIPAA compliance and multi-state tax regulation handling.  
+{: style="color: #dcdcdc;"}
+
+**Responsibilities:**  
+- Built a scalable tax calculation system to support healthcare service expansion.  
+- Implemented protection mechanisms for PHI data.  
+{: style="color: #b0b0b0;"}
+
+---
+
+### Robotic Process Automation (RPA)  
+**Role:** Software Developer | **Company:** Amelia.ai | **Project Type:** Automation & AI  
+{: style="color: #f0f0f0;"}
+
+**Overview:**  
+Developed a scalable RPA tool to automate web and Windows desktop workflows, utilizing OCR and UI automation to improve efficiency.  
+{: style="color: #dcdcdc;"}
+
+**Responsibilities:**  
+- Designed intelligent automation engines with OCR and UI automation for seamless interaction with applications.  
+- Created a no-code drag-and-drop workflow builder using React and Node.js.  
+{: style="color: #b0b0b0;"}
+
+---
+
+### Business Process Networks (BPN)  
+**Role:** Software Developer | **Company:** Amelia.ai | **Project Type:** Workflow Automation & AI-driven Processes  
+{: style="color: #f0f0f0;"}
+
+**Overview:**  
+Developed a BPMN-based tool to automate business workflows, integrating semantic AI for real-time process adjustments.  
+{: style="color: #dcdcdc;"}
+
+**Responsibilities:**  
+- Created a custom BPMN engine for dynamic process automation.  
+- Integrated AI to trigger workflows based on user input, enhancing process accuracy.  
+{: style="color: #b0b0b0;"}
+
+---
+
+# Academic Work
+
+### Cellorganizer  
+**Overview:**  
+Provides tools for generative models of cell organization from images.  
+{: style="color: #f0f0f0;"}
+
+- **Key Features:**  
+  - Storing and retrieving cell models  
+  - Synthesizing images from models  
+{: style="color: #dcdcdc;"}
+
+- **[Visit the Lab Website](http://www.cellorganizer.org/)**
+
+---
+
+### HyattVR  
+**Overview:**  
+A VR platform for practicing public speaking and receiving feedback on performance.  
+{: style="color: #f0f0f0;"}
+
+- **Key Features:**  
+  - Virtual playback of presentations  
+  - Audience perspective review  
+{: style="color: #dcdcdc;"}
+
+- **[Visit the Lab Website](http://olicdn.andrew.cmu.edu/vrapp.html)**
+
+---
+
+### Cloud Computing  
+**Overview:**  
+A project-based course on cloud computing, focused on hands-on experience with AWS, Azure, and GCP.  
+{: style="color: #f0f0f0;"}
+
+- **Key Features:**  
+  - MapReduce, Jupyter Notebooks, and data science libraries  
+  - Deployed fault-tolerant applications  
+{: style="color: #dcdcdc;"}
+
+- **[Course Website](https://www.cs.cmu.edu/~msakr/15619-s20/)**
+
+---
+
+### Practical Data Science  
+**Overview:**  
+A hands-on introduction to the full stack of data science.  
+{: style="color: #f0f0f0;"}
+
+- **Key Features:**  
+  - Data collection, processing, and visualization  
+  - Applied machine learning techniques  
+{: style="color: #dcdcdc;"}
+
+- **[Course Website](http://www.datasciencecourse.org/)**
+
+---
+
+### Data Structures for Application Developers  
+**Overview:**  
+Covered data structures and algorithms with practical implementation.  
+{: style="color: #f0f0f0;"}
+
+- **Key Features:**  
+  - Hands-on with Java Collections (List, Map, Set)  
+  - Introduction to algorithm analysis  
+{: style="color: #dcdcdc;"}
+
+- **[Course Website](https://www.coursicle.com/cmu/courses/ISR/17683/)**
+
+---
+
+### Databases and Management  
+**Overview:**  
+Focused on relational database models and SQL querying.  
+{: style="color: #f0f0f0;"}
+
+- **Key Features:**  
+  - Database design and implementation  
+  - SQL querying and data transformation  
+{: style="color: #dcdcdc;"}
+
+- **[Course Website](http://www.datasciencecourse.org/)**
+
+---
+
+### NoSQL Database Management  
+**Overview:**  
+Explored NoSQL databases, comparing them with traditional systems.  
+{: style="color: #f0f0f0;"}
+
+- **Key Features:**  
+  - Hands-on with NoSQL databases like MongoDB and Cassandra  
+  - Modeling for heterogeneous data  
+{: style="color: #dcdcdc;"}
+
+- **[Course Website](https://api.heinz.cmu.edu/courses_api/course_detail/95-737)**
+
+---
+
+### Professional Scrum Master 1  
+**Credential ID:** 483462  
+{: style="color: #f0f0f0;"}
+
+- **[Scrum Website](https://www.scrum.org/certification-list)**
