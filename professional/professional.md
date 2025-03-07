@@ -19,7 +19,7 @@ author_profile: true
 
   .work-header {
     font-size: 2.5rem;
-    color: #333;
+    color: white !important;
     margin-bottom: 15px;
   }
 
@@ -32,7 +32,7 @@ author_profile: true
 
   .date-location {
     font-size: 1rem;
-    color: #777;
+    color: white !important;
     margin-bottom: 15px;
   }
 
@@ -41,6 +41,7 @@ author_profile: true
     padding: 0;
     font-size: 1.1rem;
     margin: 10px 0;
+    color: white !important;
   }
 
   .responsibilities-list li {
@@ -48,6 +49,7 @@ author_profile: true
     padding-left: 15px;
     text-align: left;
     border-left: 3px solid #4CAF50;
+    color: white !important;
   }
 
   .section-title {
